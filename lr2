@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+
+    int x = 10;
+    int y = 5;
+    int z = 2;
+    int q;
+
+    q = x*y-z;
+    printf("The answer is, q = %d.", q);
+
+    return 0;
+}
