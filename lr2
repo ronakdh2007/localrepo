@@ -12,11 +12,9 @@ int main()
 
     q = x*y-z;
     r = x/y+5;
-    m = x/z-y;
 
     printf("The answer to the 1st question is = %d.", q);
     printf("The answer to the 2nd question is = %d.", r);
-    printf("The answer to the 3rd question is = %d.", m);
 
     return 0;
 }
