@@ -7,9 +7,13 @@ int main()
     int y = 5;
     int z = 2;
     int q;
+    int r;
 
     q = x*y-z;
-    printf("The answer is, q = %d.", q);
+    r = x/y+5;
+
+    printf("The answer to the 1st question is = %d.", q);
+    printf("The answer to the 2nd question is = %d.", r);
 
     return 0;
 }
