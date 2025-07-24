@@ -11,10 +11,7 @@ int main()
     int m;
 
     q = x*y-z;
-    r = x/y+5;
-
     printf("The answer to the 1st question is = %d.", q);
-    printf("The answer to the 2nd question is = %d.", r);
 
     return 0;
 }
